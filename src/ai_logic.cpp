@@ -64,6 +64,13 @@ void buildTree(Node* node, char player, char opponent) {
  * @param beta The best score for the minimizer.
  * @return The evaluated score for the given node.
  */
+int AILogic::minimax(std::vector<char> board, bool isMaximizing, char aiSymbol, char playerSymbol) {
+    Node* root = new Node(board, isMaximizing, aiSymbol, playerSymbol);
+    int score = AILogic::minimaxOnTree(root, isMaximizing, -1000, 1000);
+    delete root;
+    return score;
+}
+
 int AILogic::minimaxOnTree(Node* node, bool isMaximizing, int alpha, int beta) {
     int gameState = GameLogic::checkWin(node->board);
     if (gameState == 1) { // Win state
