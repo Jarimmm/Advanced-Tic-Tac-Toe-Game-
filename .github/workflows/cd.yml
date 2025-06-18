@@ -1,0 +1,62 @@
+name: Build & Deploy TicTacToe
+
+on:
+  push:
+    tags:
+      - 'v*'   # Triggers only on version tags like v1.0.0, v2.3, etc.
+
+jobs:
+  build-and-test:
+    name: Build & Run Tests
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install dependencies (G++, CMake, GTest)
+      run: |
+        sudo apt update
+        sudo apt install -y cmake g++ libgtest-dev
+        sudo cmake -S /usr/src/gtest -B /usr/src/gtest/build
+        sudo cmake --build /usr/src/gtest/build
+        sudo cp /usr/src/gtest/build/lib/*.a /usr/lib
+
+    - name: Configure project
+      run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+    - name: Build project
+      run: cmake --build build --config Release
+
+    - name: Run unit tests
+      run: cd build && ctest
+
+    - name: Upload build artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: TicTacToe
+        path: build/TicTacToe
+
+  release:
+    name: Release Binary
+    needs: build-and-test
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download build artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: TicTacToe
+        path: ./release
+
+    - name: Make binary executable
+      run: chmod +x ./release/TicTacToe
+
+    - name: Publish GitHub release
+      uses: softprops/action-gh-release@v2
+      with:
+        name: Release ${{ github.ref_name }}
+        tag_name: ${{ github.ref_name }}
+        files: ./release/TicTacToe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
