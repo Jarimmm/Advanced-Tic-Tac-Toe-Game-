@@ -12,7 +12,7 @@ public:
     static void mediumAI(const std::vector<char>& board, std::vector<int>& used, int& choice,
                         char aiSymbol, char playerSymbol);
     static void hardAI(const std::vector<char>& board, std::vector<int>& used, int& choice, char aiSymbol);
-    static int minimaxOnTree(std::vector<char> board, bool isMaximizing, char aiSymbol, char playerSymbol);
+static int minimaxOnTree(struct Node* node, bool isMaximizing, int alpha, int beta);
 
 private:
 };
