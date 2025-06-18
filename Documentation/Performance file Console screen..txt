@@ -1,0 +1,760 @@
+Active code page: 65001
+1. Register
+2. Login
+Choose option: 1
+Enter username: saso
+Enter password: 333
+[38;5;46mRegistration successful!
+[0mRegistered successfully!
+[TIMER] Authentication Timing took: 0.002607 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;208m[1m
+	⭐ GAME RULES ⭐[0m
+
+ 👤 Players take turns placing ❌  or ⭕ 
+ 🏆 First to get 3 in a row wins!
+ 🤝 Full board = Draw
+ 🔥 Control center and corners!
+
+ 🔗 View tutorial? (Y/N): N
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;51m[1m
+	🌈 THE MAIN MENU 🌈[0m
+
+ 👤 [38;5;201m1. Human vs Human
+[0m 🤖 [38;5;39m2. Human vs Computer
+[0m 🏆 [38;5;226m3. Leaderboard
+[0m ⚠  [38;5;196m4. Exit Game
+
+[0m ✅  Enter choice (1-4): 2
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 🤖 Select AI difficulty:
+ 🎲 1. Easy
+ 🧠 2. Medium
+ 🎯 3. Hard
+ ✅  Enter choice (1-3): 1
+ saso, choose ❌  (X) or ⭕  (O): X
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │  [38;5;226m1  │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 1
+[TIMER] Player Move Timing took: 3.66912 seconds
+[TIMER] Game Status Check Timing took: 3.68268 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🎲 Computer is choosing randomly...
+[TIMER] Finding Best Move Timing (Easy) took: 3.1e-05 seconds
+[TIMER] AI Move Timing (Easy) took: 0.500898 seconds
+ 🤖 Computer chooses position 6
+[TIMER] AI Move Timing took: 1.01434 seconds
+[TIMER] Game Status Check Timing took: 1.02907 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 5
+[TIMER] Player Move Timing took: 3.62738 seconds
+[TIMER] Game Status Check Timing took: 3.64298 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🎲 Computer is choosing randomly...
+[TIMER] Finding Best Move Timing (Easy) took: 9e-06 seconds
+[TIMER] AI Move Timing (Easy) took: 0.500777 seconds
+ 🤖 Computer chooses position 2
+[TIMER] AI Move Timing took: 1.01623 seconds
+[TIMER] Game Status Check Timing took: 1.03232 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 9
+[TIMER] Player Move Timing took: 2.68751 seconds
+[TIMER] Game Status Check Timing took: 2.70067 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │ [38;5;196m[1m❌ [0m │
+   ╚───────────────╝
+
+[38;5;46m
+ 🏆 saso wins! 🏆
+[0m[TIMER] Game History Saving Timing took: 1e-06 seconds
+
+ ⭐ Play again with same players? (y/n): n
+[TIMER] Game Reset Timing took: 3.10511 seconds
+[TIMER] Menu Interaction Timing took: 25.7237 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;208m[1m
+	⭐ GAME RULES ⭐[0m
+
+ 👤 Players take turns placing ❌  or ⭕ 
+ 🏆 First to get 3 in a row wins!
+ 🤝 Full board = Draw
+ 🔥 Control center and corners!
+
+ 🔗 View tutorial? (Y/N): N
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;51m[1m
+	🌈 THE MAIN MENU 🌈[0m
+
+ 👤 [38;5;201m1. Human vs Human
+[0m 🤖 [38;5;39m2. Human vs Computer
+[0m 🏆 [38;5;226m3. Leaderboard
+[0m ⚠  [38;5;196m4. Exit Game
+
+[0m ✅  Enter choice (1-4): 2
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 🤖 Select AI difficulty:
+ 🎲 1. Easy
+ 🧠 2. Medium
+ 🎯 3. Hard
+ ✅  Enter choice (1-3): 2
+ saso, choose ❌  (X) or ⭕  (O): X
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │  [38;5;226m1  │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 1
+[TIMER] Player Move Timing took: 3.46211 seconds
+[TIMER] Game Status Check Timing took: 3.47505 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🧠 Computer is strategizing...
+[TIMER] Finding Best Move Timing (Medium) took: 2.2e-05 seconds
+[TIMER] AI Move Timing (Medium) took: 0.501573 seconds
+ 🤖 Computer chooses position 5
+[TIMER] AI Move Timing took: 1.01402 seconds
+[TIMER] Game Status Check Timing took: 1.02656 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 7
+[TIMER] Player Move Timing took: 2.77403 seconds
+[TIMER] Game Status Check Timing took: 2.80279 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🧠 Computer is strategizing...
+[TIMER] Finding Best Move Timing (Medium) took: 1.6e-05 seconds
+[TIMER] AI Move Timing (Medium) took: 0.501314 seconds
+ 🤖 Computer chooses position 4
+[TIMER] AI Move Timing took: 1.00769 seconds
+[TIMER] Game Status Check Timing took: 1.02685 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 6
+[TIMER] Player Move Timing took: 3.0015 seconds
+[TIMER] Game Status Check Timing took: 3.01985 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🧠 Computer is strategizing...
+[TIMER] Finding Best Move Timing (Medium) took: 5.9e-05 seconds
+[TIMER] AI Move Timing (Medium) took: 0.506273 seconds
+ 🤖 Computer chooses position 3
+[TIMER] AI Move Timing took: 1.02231 seconds
+[TIMER] Game Status Check Timing took: 1.03538 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 9
+[TIMER] Player Move Timing took: 6.61915 seconds
+[TIMER] Game Status Check Timing took: 6.63296 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m8  │ [38;5;196m[1m❌ [0m │
+   ╚───────────────╝
+
+ 🧠 Computer is strategizing...
+[TIMER] Finding Best Move Timing (Medium) took: 1.3e-05 seconds
+[TIMER] AI Move Timing (Medium) took: 0.512158 seconds
+ 🤖 Computer chooses position 8
+[TIMER] AI Move Timing took: 1.02615 seconds
+[TIMER] Game Status Check Timing took: 1.0474 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │  [38;5;226m2  │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 3
+[38;5;196m ⚠  Invalid move! Try again: [0m2
+[TIMER] Player Move Timing took: 18.365 seconds
+[TIMER] Game Status Check Timing took: 18.384 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;196m[1m❌ [0m │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;196m[1m❌ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╚───────────────╝
+
+[38;5;226m
+ 🤝 It's a draw! 🤝
+[0m[TIMER] Game History Saving Timing took: 0 seconds
+
+ ⭐ Play again with same players? (y/n): n
+[TIMER] Game Reset Timing took: 3.52228 seconds
+[TIMER] Menu Interaction Timing took: 54.8565 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;208m[1m
+	⭐ GAME RULES ⭐[0m
+
+ 👤 Players take turns placing ❌  or ⭕ 
+ 🏆 First to get 3 in a row wins!
+ 🤝 Full board = Draw
+ 🔥 Control center and corners!
+
+ 🔗 View tutorial? (Y/N): N
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;51m[1m
+	🌈 THE MAIN MENU 🌈[0m
+
+ 👤 [38;5;201m1. Human vs Human
+[0m 🤖 [38;5;39m2. Human vs Computer
+[0m 🏆 [38;5;226m3. Leaderboard
+[0m ⚠  [38;5;196m4. Exit Game
+
+[0m ✅  Enter choice (1-4): 2
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 🤖 Select AI difficulty:
+ 🎲 1. Easy
+ 🧠 2. Medium
+ 🎯 3. Hard
+ ✅  Enter choice (1-3): 3
+ saso, choose ❌  (X) or ⭕  (O): X
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │  [38;5;226m1  │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 2
+[TIMER] Player Move Timing took: 3.70171 seconds
+[TIMER] Game Status Check Timing took: 3.71643 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │  [38;5;226m1  │ [38;5;196m[1m❌ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🎯 Computer is calculating perfect move...
+[TIMER] Finding Best Move Timing (Hard) took: 0.023294 seconds
+[TIMER] AI Move Timing (Hard) took: 0.525321 seconds
+ 🤖 Computer chooses position 1
+[TIMER] AI Move Timing took: 1.02837 seconds
+[TIMER] Game Status Check Timing took: 1.04202 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 5
+[TIMER] Player Move Timing took: 2.90961 seconds
+[TIMER] Game Status Check Timing took: 2.92207 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;196m[1m❌ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🎯 Computer is calculating perfect move...
+[TIMER] Finding Best Move Timing (Hard) took: 0.000966 seconds
+[TIMER] AI Move Timing (Hard) took: 0.501282 seconds
+ 🤖 Computer chooses position 8
+[TIMER] AI Move Timing took: 1.01418 seconds
+[TIMER] Game Status Check Timing took: 1.02805 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;196m[1m❌ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │ [38;5;39m[1m⭕ [0m │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 6
+[TIMER] Player Move Timing took: 5.10289 seconds
+[TIMER] Game Status Check Timing took: 5.11559 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;196m[1m❌ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │ [38;5;39m[1m⭕ [0m │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🎯 Computer is calculating perfect move...
+[TIMER] Finding Best Move Timing (Hard) took: 3.5e-05 seconds
+[TIMER] AI Move Timing (Hard) took: 0.503535 seconds
+ 🤖 Computer chooses position 4
+[TIMER] AI Move Timing took: 1.01796 seconds
+[TIMER] Game Status Check Timing took: 1.03266 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │  [38;5;226m3  │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │ [38;5;39m[1m⭕ [0m │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 3
+[TIMER] Player Move Timing took: 3.54619 seconds
+[TIMER] Game Status Check Timing took: 3.55887 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │ [38;5;39m[1m⭕ [0m │  [38;5;226m9  │
+   ╚───────────────╝
+
+ 🎯 Computer is calculating perfect move...
+[TIMER] Finding Best Move Timing (Hard) took: 1.4e-05 seconds
+[TIMER] AI Move Timing (Hard) took: 0.500485 seconds
+ 🤖 Computer chooses position 7
+[TIMER] AI Move Timing took: 1.01164 seconds
+[TIMER] Game Status Check Timing took: 1.02694 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (❌ )
+ 🤖 [38;5;51m[1mComputer[0m (⭕ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │  [38;5;226m9  │
+   ╚───────────────╝
+
+[38;5;46m
+ 🏆 Computer wins! 🏆
+[0m[TIMER] Game History Saving Timing took: 0 seconds
+
+ ⭐ Play again with same players? (y/n): n
+[TIMER] Game Reset Timing took: 4.14177 seconds
+[TIMER] Menu Interaction Timing took: 38.7111 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;208m[1m
+	⭐ GAME RULES ⭐[0m
+
+ 👤 Players take turns placing ❌  or ⭕ 
+ 🏆 First to get 3 in a row wins!
+ 🤝 Full board = Draw
+ 🔥 Control center and corners!
+
+ 🔗 View tutorial? (Y/N): N
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;51m[1m
+	🌈 THE MAIN MENU 🌈[0m
+
+ 👤 [38;5;201m1. Human vs Human
+[0m 🤖 [38;5;39m2. Human vs Computer
+[0m 🏆 [38;5;226m3. Leaderboard
+[0m ⚠  [38;5;196m4. Exit Game
+
+[0m ✅  Enter choice (1-4): 1
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+ 👤 Enter name of player 2: mariam
+ saso, choose ❌  (X) or ⭕  (O): O
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (⭕ )
+ 👤 [38;5;51m[1mmariam[0m (❌ )
+
+   ╔───────────────╗
+   │  [38;5;226m1  │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │  [38;5;226m5  │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 5
+[TIMER] Player Move Timing took: 4.62458 seconds
+[TIMER] Game Status Check Timing took: 4.63969 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (⭕ )
+ 👤 [38;5;51m[1mmariam[0m (❌ )
+
+   ╔───────────────╗
+   │  [38;5;226m1  │  [38;5;226m2  │  [38;5;226m3  │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ mariam, enter position (1-9): 3
+[TIMER] Player Move Timing took: 4.03178 seconds
+[TIMER] Game Status Check Timing took: 4.05065 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (⭕ )
+ 👤 [38;5;51m[1mmariam[0m (❌ )
+
+   ╔───────────────╗
+   │  [38;5;226m1  │  [38;5;226m2  │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 1
+[TIMER] Player Move Timing took: 2.82614 seconds
+[TIMER] Game Status Check Timing took: 2.84081 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (⭕ )
+ 👤 [38;5;51m[1mmariam[0m (❌ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │  [38;5;226m2  │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │  [38;5;226m9  │
+   ╚───────────────╝
+
+ mariam, enter position (1-9): 9
+[TIMER] Player Move Timing took: 8.5457 seconds
+[TIMER] Game Status Check Timing took: 8.56065 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (⭕ )
+ 👤 [38;5;51m[1mmariam[0m (❌ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │  [38;5;226m2  │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │  [38;5;226m4  │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │ [38;5;196m[1m❌ [0m │
+   ╚───────────────╝
+
+ saso, enter position (1-9): 4
+[TIMER] Player Move Timing took: 6.37975 seconds
+[TIMER] Game Status Check Timing took: 6.39508 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (⭕ )
+ 👤 [38;5;51m[1mmariam[0m (❌ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │  [38;5;226m2  │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │  [38;5;226m6  │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │ [38;5;196m[1m❌ [0m │
+   ╚───────────────╝
+
+ mariam, enter position (1-9): 6
+[TIMER] Player Move Timing took: 4.03648 seconds
+[TIMER] Game Status Check Timing took: 4.0503 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+
+ 👤 [38;5;201m[1msaso[0m (⭕ )
+ 👤 [38;5;51m[1mmariam[0m (❌ )
+
+   ╔───────────────╗
+   │ [38;5;39m[1m⭕ [0m │  [38;5;226m2  │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │ [38;5;39m[1m⭕ [0m │ [38;5;39m[1m⭕ [0m │ [38;5;196m[1m❌ [0m │
+   ╠───────────────
+   │  [38;5;226m7  │  [38;5;226m8  │ [38;5;196m[1m❌ [0m │
+   ╚───────────────╝
+
+[38;5;46m
+ 🏆 mariam wins! 🏆
+[0m[TIMER] Game History Saving Timing took: 1e-06 seconds
+
+ ⭐ Play again with same players? (y/n): n
+[TIMER] Game Reset Timing took: 4.07995 seconds
+[TIMER] Menu Interaction Timing took: 65.1612 seconds
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;208m[1m
+	⭐ GAME RULES ⭐[0m
+
+ 👤 Players take turns placing ❌  or ⭕ 
+ 🏆 First to get 3 in a row wins!
+ 🤝 Full board = Draw
+ 🔥 Control center and corners!
+
+ 🔗 View tutorial? (Y/N): N
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;51m[1m
+	🌈 THE MAIN MENU 🌈[0m
+
+ 👤 [38;5;201m1. Human vs Human
+[0m 🤖 [38;5;39m2. Human vs Computer
+[0m 🏆 [38;5;226m3. Leaderboard
+[0m ⚠  [38;5;196m4. Exit Game
+
+[0m ✅  Enter choice (1-4): 3
+[38;5;129m[1m
+	⭐ ULTIMATE TIC-TAC-TOE ⭐[0m
+[38;5;220m[1m
+	🏆 LEADERBOARD 🏆[0m
+
+ ==================================================
+ PLAYER              WINS      LOSSES    DRAWS     
+ ==================================================
+ Computer              [38;5;46m4[0m[38;5;196m         4[0m[38;5;226m         1[0m
+ cindy                 [38;5;46m0[0m[38;5;196m         1[0m[38;5;226m         0[0m
+ coco                  [38;5;46m1[0m[38;5;196m         0[0m[38;5;226m         0[0m
+ gigi                  [38;5;46m0[0m[38;5;196m         1[0m[38;5;226m         0[0m
+ kenzy                 [38;5;46m1[0m[38;5;196m         1[0m[38;5;226m         0[0m
+ marco                 [38;5;46m1[0m[38;5;196m         0[0m[38;5;226m         0[0m
+ mariam                [38;5;46m1[0m[38;5;196m         0[0m[38;5;226m         0[0m
+ saso                  [38;5;46m1[0m[38;5;196m         2[0m[38;5;226m         1[0m
+ ==================================================
+
+ ⭐ Press Enter to continue...
