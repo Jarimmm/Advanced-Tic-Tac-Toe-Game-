@@ -1,6 +1,6 @@
-#include "game_ui.h"
-#include "game_constants.h"
-#include "game_logic.h"
+#include "../include/game_ui.h"
+#include "../include/game_constants.h"
+#include "../include/game_logic.h"
 #include <iostream>
 #include <cstdlib>
 #include <limits>
