@@ -64,7 +64,7 @@ void buildTree(Node* node, char player, char opponent) {
  * @param beta The best score for the minimizer.
  * @return The evaluated score for the given node.
  */
-int minimaxOnTree(Node* node, bool isMaximizing, int alpha, int beta) {
+int AILogic::minimaxOnTree(Node* node, bool isMaximizing, int alpha, int beta) {
     int gameState = GameLogic::checkWin(node->board);
     if (gameState == 1) { // Win state
         // If it's the maximizer's turn, the minimizer must have made the winning move.
