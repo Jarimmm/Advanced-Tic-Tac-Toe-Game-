@@ -14,7 +14,10 @@ public:
     static void hardAI(const std::vector<char>& board, std::vector<int>& used, int& choice, char aiSymbol);
 
     // 🆕 Correct declaration of the actual used function
-    static int minimaxOnTree(Node* node, bool isMaximizing, int alpha, int beta);
+static int minimax(std::vector<char> board, bool isMaximizing, char aiSymbol, char playerSymbol);
+cpp
+Copy
+Edit
 };
 
 #endif
