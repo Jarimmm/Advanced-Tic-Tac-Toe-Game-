@@ -1,16 +1,11 @@
-/*
- * ai_logic.cpp
- *
- *  Created on: Apr 28, 2025
- *      Author: Mariam Samy
- */
-#include "ai_logic.h"
-#include "game_logic.h"
+
+#include "../include/ai_logic.h"
+#include "../include/game_logic.h"
 #include <iostream>
 #include <algorithm>
 #include <ctime>
 #include <thread>
-#include "game_constants.h"
+#include "../include/game_constants.h"
 
 using namespace std;
 
