@@ -1,4 +1,4 @@
-name: CI - Build and Test Tic Tac Toe
+name: Cd - Build and Test Tic Tac Toe
 
 on:
   push:
