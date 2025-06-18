@@ -1,4 +1,4 @@
-name: Cd - Build and Test Tic Tac Toe
+name: CI/CD - Build and Test Tic Tac Toe and deplay
 
 on:
   push:
@@ -41,6 +41,12 @@ jobs:
         run: |
           cd build
           ctest --output-on-failure
+           name: 📤 Upload Test Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: build/Testing/Temporary/LastTest.log
 
       - name: 📦 Upload artifact
         uses: actions/upload-artifact@v4  # Upload built executable for CD job
