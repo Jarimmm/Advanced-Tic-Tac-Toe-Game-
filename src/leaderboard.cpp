@@ -1,6 +1,6 @@
-#include "leaderboard.h"
-#include "game_constants.h"
-#include "game_logic.h"
+#include "../include/leaderboard.h"
+#include "../include/game_constants.h"
+#include "../include/game_logic.h"
 #include <iostream>
 #include <fstream>
 #include <iomanip>
