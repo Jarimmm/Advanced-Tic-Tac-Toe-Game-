@@ -1,11 +1,6 @@
-/*
- * game_logic.cpp
- *
- *  Created on: Apr 28, 2025
- *      Author: Mariam Samy
- */
-#include "game_logic.h"
-#include "game_constants.h"
+
+#include "../include/game_logic.h"
+#include "../include/game_constants.h"
 #include <iostream>
 #include <thread>
 #include <cstdlib>
