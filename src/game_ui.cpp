@@ -16,7 +16,7 @@ void GameUI::showRules() {
     cout << " " << fire << " Control center and corners!\n\n";
 
     char choice;
-    cout << " " << link << " View tutorial? (Y/N): ";
+    cout << " " << linkIcon << " View tutorial? (Y/N): ";
     cin >> choice;
     if (tolower(choice) == 'y') {
 #ifdef _WIN32
