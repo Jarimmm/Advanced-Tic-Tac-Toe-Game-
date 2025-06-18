@@ -4,6 +4,7 @@ Active code page: 65001
 Choose option: 1
 Enter username: saso
 Enter password: 333
+
 [38;5;46mRegistration successful!
 [0mRegistered successfully!
 [TIMER] Authentication Timing took: 0.002607 seconds
