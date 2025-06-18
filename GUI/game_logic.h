@@ -1,0 +1,24 @@
+/*
+ * game_logic.h
+ *
+ *  Created on: Apr 28, 2025
+ *      Author: Mariam Samy
+ */
+
+#ifndef GAME_LOGIC_H
+#define GAME_LOGIC_H
+
+#include <vector>
+#include <string>
+#include "game_constants.h"
+
+class GameLogic {
+public:
+    static void clearScreen();
+    static void wait(int milliseconds);
+    static void displayColorfulBoard(char x, char o, const std::string &u1,
+                                   const std::string &u2, const std::vector<char> &board);
+    static int checkWin(const std::vector<char> &board);
+};
+
+#endif

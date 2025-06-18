@@ -1,0 +1,10 @@
+debug/StyleManager.o
+debug/main.o
+debug/mainwindow.o
+debug/leaderboard_qt.o
+debug/UserManager_qt.o
+debug/ai_logic.o
+debug/game_logic.o
+debug/game_ui.o
+debug/User.o
+debug/moc_mainwindow.o

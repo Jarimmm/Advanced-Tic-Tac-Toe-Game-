@@ -1,0 +1,449 @@
+
+Match: rana123 vs toom
+rana123 played 1
+toom played 6
+rana123 played 5
+toom played 7
+rana123 played 9
+Result: rana123
+-----------------------------
+
+Match: marko vs Computer
+marko played 1
+Computer played 3
+marko played 5
+Computer played 6
+marko played 9
+Result: marko
+-----------------------------
+
+Match: marko vs Computer
+marko played 1
+Computer played 5
+marko played 9
+Computer played 2
+marko played 8
+Computer played 4
+marko played 7
+Result: marko
+-----------------------------
+
+Match: marko vs Computer
+marko played 1
+Computer played 8
+marko played 5
+Computer played 2
+marko played 9
+Result: marko
+-----------------------------
+
+Match: marko vs Computer
+marko played 1
+Computer played 5
+marko played 2
+Computer played 3
+marko played 4
+Computer played 7
+Result: Computer
+-----------------------------
+
+Match: marko vs Computer
+marko played 1
+Computer played 5
+marko played 2
+Computer played 3
+marko played 4
+Computer played 7
+Result: Computer
+-----------------------------
+
+Match: marko vs mark
+marko played 1
+mark played 5
+marko played 2
+mark played 3
+marko played 4
+mark played 7
+Result: mark
+-----------------------------
+
+Match: amira vs Computer
+amira played 5
+Computer played 1
+amira played 8
+Computer played 2
+amira played 3
+Computer played 7
+amira played 4
+Computer played 6
+amira played 9
+Result: DRAW
+-----------------------------
+
+Match: amira vs rody
+amira played 1
+rody played 5
+amira played 2
+rody played 3
+amira played 7
+rody played 4
+amira played 6
+rody played 8
+amira played 9
+Result: DRAW
+-----------------------------
+Computer played 5
+ played 8
+Computer played 3
+ played 7
+Computer played 2
+ played 9
+Result: 
+-----------------------------
+amira played 1
+Computer played 7
+amira played 5
+Computer played 8
+amira played 9
+Result: amira
+-----------------------------
+amira played 5
+Computer played 1
+amira played 8
+Computer played 2
+amira played 3
+Computer played 7
+amira played 4
+Computer played 6
+amira played 9
+Result: DRAW
+-----------------------------
+amira played 5
+Computer played 9
+amira played 3
+Computer played 1
+amira played 7
+Result: amira
+-----------------------------
+Computer played 5
+amira played 9
+Computer played 1
+amira played 7
+Computer played 3
+amira played 2
+Computer played 6
+amira played 4
+Computer played 8
+Result: DRAW
+-----------------------------
+Computer played 7
+Computer played 9
+amira played 6
+Computer played 8
+Result: Computer
+-----------------------------
+Computer played 5
+Computer played 1
+amira played 9
+Computer played 3
+amira played 7
+Computer played 2
+Result: Computer
+-----------------------------
+amira played 5
+Computer played 1
+amira played 7
+Computer played 3
+amira played 2
+Computer played 8
+amira played 6
+Computer played 4
+amira played 9
+Result: DRAW
+-----------------------------
+amira played 5
+Computer played 3
+amira played 9
+Computer played 7
+amira played 1
+Result: amira
+-----------------------------
+amira played 5
+rody played 7
+amira played 8
+rody played 4
+amira played 9
+rody played 1
+Result: rody
+-----------------------------
+Computer played 5
+amira played 9
+Computer played 7
+amira played 3
+Computer played 1
+amira played 4
+Computer played 6
+amira played 2
+Computer played 8
+Result: DRAW
+-----------------------------
+ played 8
+ played 5
+ played 2
+ played 3
+ played 7
+amira played 5
+Computer played 1
+amira played 7
+Computer played 8
+amira played 3
+Result: amira
+-----------------------------
+Computer played 9
+amira played 1
+Computer played 7
+amira played 8
+Computer played 6
+amira played 3
+Computer played 5
+amira played 2
+Result: amira
+-----------------------------
+amira played 8
+Computer played 6
+amira played 9
+Computer played 7
+amira played 5
+Computer played 3
+amira played 1
+Result: amira
+-----------------------------
+amira played 5
+rody played 9
+amira played 3
+rody played 7
+amira played 1
+rody played 8
+Result: rody
+-----------------------------
+amira played 1
+Computer played 6
+amira played 8
+Computer played 3
+amira played 9
+Computer played 2
+amira played 5
+Result: amira
+-----------------------------
+amira played 1
+Computer played 9
+amira played 5
+Computer played 3
+amira played 6
+Computer played 7
+amira played 4
+Result: amira
+-----------------------------
+Computer played 1
+Computer played 2
+amira played 5
+Computer played 7
+amira played 9
+Computer played 4
+amira played 1
+Result: amira
+-----------------------------
+Computer played 8
+Computer played 5
+amira played 2
+Computer played 3
+amira played 7
+Computer played 4
+amira played 6
+Computer played 1
+amira played 9
+Result: DRAW
+-----------------------------
+Computer played 1
+Computer played 4
+Computer played 1
+Computer played 7
+amira played 5
+Computer played 8
+amira played 9
+Computer played 4
+Result: Computer
+-----------------------------
+Computer played 5
+amira played 9
+Computer played 7
+amira played 3
+Computer played 1
+amira played 6
+Result: amira
+-----------------------------
+Computer played 8
+Computer played 5
+amira played 2
+Computer played 4
+amira played 6
+Computer played 7
+Computer played 5
+Computer played 3
+amira played 7
+Computer played 2
+amira played 8
+Computer played 1
+Result: Computer
+-----------------------------
+Computer played 6
+amira played 5
+Computer played 3
+amira played 9
+Computer played 1
+amira played 2
+Computer played 7
+amira played 8
+Result: amira
+-----------------------------
+Computer played 8
+Computer played 6
+Computer played 5
+Computer played 8
+Computer played 5
+Computer played 1
+Computer played 5
+Computer played 3
+Computer played 5
+Computer played 1
+amira played 9
+Computer played 7
+Computer played 3
+Computer played 5
+Computer played 5
+amira played 3
+Computer played 4
+amira played 6
+Computer played 9
+amira played 8
+Computer played 1
+Result: Computer
+-----------------------------
+Computer played 2
+amira played 6
+Computer played 5
+amira played 8
+Computer played 1
+amira played 9
+Computer played 3
+Result: Computer
+-----------------------------
+amira played 1
+Computer played 8
+amira played 5
+Computer played 2
+amira played 9
+Result: Computer
+-----------------------------
+amira played 1
+Computer played 4
+amira played 5
+Computer played 7
+amira played 9
+Result: Computer
+-----------------------------
+amira played 5
+Computer played 1
+amira played 3
+Computer played 7
+amira played 4
+Computer played 6
+amira played 9
+Computer played 2
+amira played 8
+Result: DRAW
+-----------------------------
+amira played 5
+Computer played 3
+amira played 9
+Computer played 1
+amira played 2
+Computer played 7
+amira played 8
+Result: amira
+-----------------------------
+amira played 6
+Computer played 4
+amira played 5
+Computer played 8
+amira played 9
+Computer played 1
+amira played 3
+Result: amira
+-----------------------------
+amira played 1
+Computer played 5
+amira played 9
+Computer played 3
+amira played 7
+Computer played 2
+amira played 8
+Result: amira
+-----------------------------
+amira played 5
+Computer played 1
+amira played 3
+Computer played 4
+amira played 7
+Result: amira
+-----------------------------
+amira played 9
+Computer played 8
+amira played 5
+Computer played 2
+amira played 1
+Result: amira
+-----------------------------
+amira played 5
+Computer played 3
+amira played 9
+Computer played 6
+amira played 1
+Result: amira
+-----------------------------
+amira played 5
+rody played 3
+amira played 9
+rody played 8
+amira played 6
+rody played 1
+amira played 2
+rody played 4
+amira played 7
+Result: DRAW
+-----------------------------
+amira played 3
+rody played 5
+amira played 9
+rody played 6
+amira played 4
+rody played 2
+amira played 1
+rody played 8
+Result: amira
+-----------------------------
+amira played 5
+Computer played 3
+amira played 9
+Computer played 7
+amira played 1
+Result: amira
+-----------------------------
+amira played 3
+rody played 9
+amira played 5
+rody played 7
+amira played 1
+rody played 8
+Result: rody
+-----------------------------

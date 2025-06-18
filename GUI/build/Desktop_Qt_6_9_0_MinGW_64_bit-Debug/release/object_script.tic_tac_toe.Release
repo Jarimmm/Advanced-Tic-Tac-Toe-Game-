@@ -1,0 +1,10 @@
+release/StyleManager.o
+release/main.o
+release/mainwindow.o
+release/leaderboard_qt.o
+release/UserManager_qt.o
+release/ai_logic.o
+release/game_logic.o
+release/game_ui.o
+release/User.o
+release/moc_mainwindow.o

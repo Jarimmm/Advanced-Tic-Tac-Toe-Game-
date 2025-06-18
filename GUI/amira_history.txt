@@ -1,0 +1,346 @@
+Match: amira vs Computer
+amira played 5
+Computer played 1
+amira played 7
+Computer played 3
+amira played 2
+Computer played 8
+amira played 6
+Computer played 4
+amira played 9
+Result: DRAW
+-----------------------------
+Match: amira vs Computer
+amira played 5
+Computer played 3
+amira played 9
+Computer played 7
+amira played 1
+Result: amira
+-----------------------------
+Match: amira vs rody
+amira played 5
+rody played 7
+amira played 8
+rody played 4
+amira played 9
+rody played 1
+Result: rody
+-----------------------------
+Match: amira vs Computer
+Computer played 5
+amira played 9
+Computer played 7
+amira played 3
+Computer played 1
+amira played 4
+Computer played 6
+amira played 2
+Computer played 8
+Result: DRAW
+-----------------------------
+Match: amira vs Computer
+amira played 5
+Computer played 1
+amira played 7
+Computer played 8
+amira played 3
+Result: amira
+-----------------------------
+Match: amira vs Computer
+Computer played 9
+amira played 1
+Computer played 7
+amira played 8
+Computer played 6
+amira played 3
+Computer played 5
+amira played 2
+Result: amira
+-----------------------------
+Match: amira vs Computer
+amira played 8
+Computer played 6
+amira played 9
+Computer played 7
+amira played 5
+Computer played 3
+amira played 1
+Result: amira
+-----------------------------
+Match: amira vs rody
+amira played 5
+rody played 9
+amira played 3
+rody played 7
+amira played 1
+rody played 8
+Result: rody
+-----------------------------
+Match: amira vs Computer
+amira played 1
+Computer played 6
+amira played 8
+Computer played 3
+amira played 9
+Computer played 2
+amira played 5
+Result: amira
+-----------------------------
+Match: amira vs Computer
+amira played 1
+Computer played 9
+amira played 5
+Computer played 3
+amira played 6
+Computer played 7
+amira played 4
+Result: amira
+-----------------------------
+Match: amira vs Computer
+Computer played 2
+amira played 5
+Computer played 7
+amira played 9
+Computer played 4
+amira played 1
+Result: amira
+-----------------------------
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 8
+Computer played 5
+amira played 2
+Computer played 3
+amira played 7
+Computer played 4
+amira played 6
+Computer played 1
+amira played 9
+Result: DRAW
+-----------------------------
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 1
+Computer played 4
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 1
+Computer played 7
+amira played 5
+Computer played 8
+amira played 9
+Computer played 4
+Result: Computer
+-----------------------------
+Match: amira vs Computer
+Computer played 5
+amira played 9
+Computer played 7
+amira played 3
+Computer played 1
+amira played 6
+Result: amira
+-----------------------------
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 8
+Computer played 5
+amira played 2
+Computer played 4
+amira played 6
+Computer played 7
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 5
+Computer played 3
+amira played 7
+Computer played 2
+amira played 8
+Computer played 1
+Result: Computer
+-----------------------------
+Match: amira vs Computer
+Computer played 6
+amira played 5
+Computer played 3
+amira played 9
+Computer played 1
+amira played 2
+Computer played 7
+amira played 8
+Result: amira
+-----------------------------
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 8
+Computer played 6
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 5
+Computer played 8
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 5
+Computer played 1
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 5
+Computer played 3
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 5
+Computer played 1
+amira played 9
+Computer played 7
+Match: amira vs Computer
+Match: amira vs Computer
+Computer played 3
+Computer played 5
+Match: amira vs Computer
+Computer played 5
+amira played 3
+Computer played 4
+amira played 6
+Computer played 9
+amira played 8
+Computer played 1
+Result: Computer
+-----------------------------
+Match: amira vs Computer
+Computer played 2
+amira played 6
+Computer played 5
+amira played 8
+Computer played 1
+amira played 9
+Computer played 3
+Result: Computer
+-----------------------------
+Match: amira vs Computer
+amira played 1
+Computer played 8
+amira played 5
+Computer played 2
+amira played 9
+Result: Computer
+-----------------------------
+Match: amira vs Computer
+Match: amira vs Computer
+amira played 1
+Computer played 4
+amira played 5
+Computer played 7
+amira played 9
+Result: Computer
+-----------------------------
+Match: amira vs Computer
+amira played 5
+Computer played 1
+amira played 3
+Computer played 7
+amira played 4
+Computer played 6
+amira played 9
+Computer played 2
+amira played 8
+Result: DRAW
+-----------------------------
+Match: amira vs Computer
+amira played 5
+Computer played 3
+amira played 9
+Computer played 1
+amira played 2
+Computer played 7
+amira played 8
+Result: amira
+-----------------------------
+Match: amira vs Computer
+Match: amira vs Computer
+amira played 6
+Computer played 4
+amira played 5
+Computer played 8
+amira played 9
+Computer played 1
+amira played 3
+Result: amira
+-----------------------------
+Match: amira vs Computer
+amira played 1
+Computer played 5
+amira played 9
+Computer played 3
+amira played 7
+Computer played 2
+amira played 8
+Result: amira
+-----------------------------
+Match: amira vs Computer
+amira played 5
+Computer played 1
+amira played 3
+Computer played 4
+amira played 7
+Result: amira
+-----------------------------
+Match: amira vs Computer
+amira played 9
+Computer played 8
+amira played 5
+Computer played 2
+amira played 1
+Result: amira
+-----------------------------
+Match: amira vs Computer
+Match: amira vs Computer
+amira played 5
+Computer played 3
+amira played 9
+Computer played 6
+amira played 1
+Result: amira
+-----------------------------
+Match: amira vs rody
+amira played 5
+rody played 3
+amira played 9
+rody played 8
+amira played 6
+rody played 1
+amira played 2
+rody played 4
+amira played 7
+Result: DRAW
+-----------------------------
+Match: amira vs rody
+Match: amira vs rody
+amira played 3
+rody played 5
+amira played 9
+rody played 6
+amira played 4
+rody played 2
+amira played 1
+rody played 8
+Result: amira
+-----------------------------
+Match: amira vs Computer
+amira played 5
+Computer played 3
+amira played 9
+Computer played 7
+amira played 1
+Result: amira
+-----------------------------
+Match: amira vs rody
+amira played 3
+rody played 9
+amira played 5
+rody played 7
+amira played 1
+rody played 8
+Result: rody
+-----------------------------
+Match: amira vs Computer

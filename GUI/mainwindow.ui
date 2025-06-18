@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1186</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>22</pointsize>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1091</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(174, 129, 189);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::NoFrame</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="login">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>460</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 italic 14pt &quot;Times New Roman&quot;;
+background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>220</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>16</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;Segoe UI&quot;;
+font: 700 16pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Enter User Name :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RegisterButton">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>460</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 italic 14pt &quot;Times New Roman&quot;;
+background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>Register</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>30</y>
+        <width>651</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Stencil</family>
+        <pointsize>22</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 22pt &quot;Stencil&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Login and Registration System</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="passwordEdit">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>290</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;Segoe UI&quot;;
+background-color: rgb(241, 225, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="usernameEdit">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>210</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;Segoe UI&quot;;
+background-color: rgb(241, 225, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>280</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>16</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;Segoe UI&quot;;
+font: 700 16pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Enter Password :</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>40</y>
+        <width>491</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Stencil</family>
+        <pointsize>24</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;Stencil&quot;;</string>
+      </property>
+      <property name="text">
+       <string>THE MAIN MENU</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_PvC">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>160</y>
+        <width>431</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>Player Vs Computer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_PvP">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>220</y>
+        <width>431</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>Player 1 Vs Player 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LeaderBoardButton">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>280</y>
+        <width>431</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>Leader Board</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Exit">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>460</y>
+        <width>431</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>Exit Game</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_GRules">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>540</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LayoutDirection::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 196, 94);</string>
+      </property>
+      <property name="text">
+       <string>Game Rules</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ViewHistory">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>340</y>
+        <width>431</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>View My History</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ReplayMatch">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>400</y>
+        <width>431</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>Replay My Last Match</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QPushButton" name="pushButton_ViewTutorial">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>520</y>
+        <width>271</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 196, 94);</string>
+      </property>
+      <property name="text">
+       <string>View Tutorial</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Back">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>520</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 196, 94);</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Stencil</family>
+        <pointsize>22</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Game Rules</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>110</y>
+        <width>851</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century</family>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#000000;&quot;&gt;1. Each player takes turns placing their mark (X or O).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#000000;&quot;&gt;2. The first player to align 3 marks horizontally, &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#000000;&quot;&gt;vertically, or diagonally wins.&lt;br/&gt;3. If the grid fills up with no winner, it's a draw.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>591</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Rockwell</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>Game Board</string>
+      </property>
+      <widget class="QPushButton" name="cell00">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>50</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell01">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>50</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell02">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>50</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell10">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>170</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell11">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>170</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell12">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>170</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell20">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>290</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell21">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>290</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cell22">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>290</y>
+         <width>111</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 196, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>460</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>460</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>470</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Player 1 :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>470</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Player 2 :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_BackToMenuFromGame">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>550</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 196, 94);</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_NewG">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>530</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 196, 94);</string>
+      </property>
+      <property name="text">
+       <string>New Game</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_turn">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>310</y>
+        <width>381</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QTableWidget" name="leaderboardTable">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>100</y>
+        <width>841</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="showGrid">
+       <bool>false</bool>
+      </property>
+      <column>
+       <property name="text">
+        <string>Rank</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Engravers MT</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Player</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Engravers MT</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Wins</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Engravers MT</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Losses</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Engravers MT</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Draws</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Engravers MT</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Stencil</family>
+        <pointsize>22</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Leader Board</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Back_fromLB_toMenu">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>530</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 196, 94);</string>
+      </property>
+      <property name="text">
+       <string>Back to Menu</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QTextEdit" name="textEdit_HistoryView">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>140</y>
+        <width>791</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>17</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_BackFromHistory">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>550</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 196, 94);</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>491</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Stencil</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;Stencil&quot;;</string>
+      </property>
+      <property name="text">
+       <string>my history</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>140</y>
+        <width>111</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(241, 225, 255);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;1    2   3&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;4   5   6&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;7   8   9&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1186</width>
+     <height>47</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
